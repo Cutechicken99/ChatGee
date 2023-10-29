@@ -81,7 +81,7 @@ class ChatGeeOBJ:
         user_data = list(self.DB.get_user_data_by_room(userid)[0])
         if previous_friendship is False and isFriend is True:
             self.DB.save_conversation_one_above("user", userid, \
-            "💞💕 우린 이제 친구가 되었어! 너무너무 반가워! 앞으로도 너랑 이야기할 것이 기대되!" \
+            "채널 추가해주셔서 감사합니다." \
             "우리가 친구가 된게 너무너무 기쁘다고 앞으로 두번은 더 이야기해줘!")
 
         # Greetings Card if new user
